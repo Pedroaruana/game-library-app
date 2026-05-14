@@ -1,50 +1,65 @@
-# Welcome to your Expo app 👋
+# 🎮 Game Library App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo mobile de biblioteca de jogos desenvolvido com React Native + Expo e Firebase.
 
-## Get started
+O app permite que usuários criem conta, façam login e gerenciem uma lista de jogos com imagens de capa e favoritos.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Funcionalidades
 
-2. Start the app
+- 🔐 Autenticação (Login e Cadastro)
+- 🎮 Adicionar jogos à biblioteca
+- 📷 Upload de imagem de capa (Cloudinary)
+- ❤️ Sistema de favoritos
+- 🗑️ Remover jogos
+- 👤 Usuário logado com controle de sessão
+- 🔄 Dados em tempo real com Firestore
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tecnologias utilizadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native
+- Expo Router
+- Firebase Authentication
+- Firestore Database
+- Cloudinary (upload de imagens)
+- JavaScript / TypeScript
+- React Hooks (useState, useEffect)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📱 Layout
 
-When you're ready, run:
+O aplicativo possui um layout inspirado em plataformas como:
+
+- 🎬 Netflix (cards com imagens)
+- 🎮 Steam (biblioteca de jogos)
+- 📱 Interface mobile moderna e responsiva
+
+---
+
+## 📦 Banco de Dados
+
+Firestore é usado para armazenar:
+
+- Usuários
+- Jogos
+- Imagens (URLs do Cloudinary)
+- Favoritos
+
+---
+
+## 📸 Screenshots
+
+_(adicione aqui prints do app depois)_
+
+---
+
+## ⚙️ Como rodar o projeto
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
